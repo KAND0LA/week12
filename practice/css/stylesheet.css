@@ -1,0 +1,11 @@
+body {
+    background-color: red;
+}
+
+.whitetext {
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+}
+
+
