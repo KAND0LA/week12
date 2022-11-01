@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: blue;
 }
 
@@ -10,5 +10,29 @@ body {
 @media (min-width: 900px){
     body{
         background-color: green;
+    }
+} */
+
+body{
+    background-color: lightpink;
+
+}
+nav{
+    border: burlywood 2px solid;
+    display: flex;
+}
+
+@media screen and (min-width: 600px){
+    nav{
+        border: burlywood 2px solid;
+        display: flex;
+        margin: 10px;
+        text-align: center;
+        margin: 10px;
+        flex-direction: column;
+    }
+    body{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
     }
 }
