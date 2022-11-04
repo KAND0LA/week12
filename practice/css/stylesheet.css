@@ -1,11 +1,82 @@
-body {
-    background-color: red;
+body{
+    background-color: #F2E9E4;
 }
 
-.whitetext {
-    color: white;
+h1{
     text-align: center;
-    list-style-position: inside;
+    color: #22223B;
+    font-family: 'Indie Flower', cursive;
 }
 
+.text{
+    font-family: 'Montserrat', sans-serif;
+    clear: both;
+}
 
+nav{
+    text-align: center;
+    background-color: #F2E9E4;
+    position: sticky;
+    top: 0;
+}
+
+.coffee_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.article_1{
+    background-color: #C9ADA7;
+}
+
+.article_2{
+    background-color: #C9ADA7;
+}
+
+.ul{
+    background-color:#9A8C98;
+    margin-left: 30px;
+}
+
+.li_1{
+    list-style-type: square;
+    position: relative;
+    right: 40px;
+}
+
+.li_2{
+    list-style-type: circle;
+    position: relative;
+    right: 5px;
+}
+
+.menu{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.nav{
+    list-style-type: none;
+    border-bottom: 2px black solid;
+    padding-bottom: 11px;
+}
+.vagina {
+    list-style-type: none;
+}
+
+.cafe_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+a:link{
+    color: darkslateblue;
+}
+
+a:visited{
+    color: rgb(100, 8, 80);;
+}
